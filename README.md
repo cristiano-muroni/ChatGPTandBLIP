@@ -1,2 +1,2 @@
-# ChatGPTandBLIP
-Chatbot Take Blip utilizando a IA do CHATGPT-3
+# Chat GPT-3 com Blip chat
+## Chatbot Take Blip utilizando a IA do CHATGPT-3
