@@ -1,6 +1,6 @@
 # Chat GPT-3 AI with Blip chat
 <div align="center">  
-![Logo]([https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Logo-500x281.png](https://static.wixstatic.com/media/8cbd76_40687dae22ce4475b6f388fcd751309e~mv2.png/v1/fill/w_560,h_346,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/OpenAI.png) "Open AI")
+![Logo](https://ml.globenewswire.com/Resource/Download/0b496401-dd38-4fe2-ad6a-445e921e9414?size=2 "Open AI")
 </div>
 ## Description
 This is an example of how to use **GPT-3 chat** with the **Blip chat framework**.
