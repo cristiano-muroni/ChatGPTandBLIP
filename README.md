@@ -23,3 +23,5 @@ To install and run, follow the steps below:
 <p align="center">
 <img src="src/assets/copyKey.PNG">
 </p>
+
+* Then open the Blip builder and click on settings.
