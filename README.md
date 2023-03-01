@@ -24,4 +24,8 @@ To install and run, follow the steps below:
 <img src="src/assets/copyKey.PNG">
 </p>
 
-* Then open the Blip builder and click on settings.
+* Create a chat from scratch on the Take **Blip platform** and then open the **Blip builder** and click on **settings**.
+
+<p align="center">
+<img src="src/assets/config.PNG">
+</p>
