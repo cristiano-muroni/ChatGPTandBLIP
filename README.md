@@ -4,7 +4,9 @@
 ![Logo](https://1000logos.net/wp-content/uploads/2023/02/ChatGPT-Logo.png "Open AI")
   
 </div>
+
 ## Description
+
 <p align="center">
 <img src="src/assets/finalGIFGPT.gif">
 </p>
