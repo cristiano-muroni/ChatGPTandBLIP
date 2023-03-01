@@ -5,6 +5,9 @@
   
 </div>
 ## Description
+<p align="center">
+<img src="src/assets/finalGIFGPT.gif">
+</p>
 This is an example of how to use **GPT-3 chat** with the **Blip chat framework**.
 To install and run, follow the steps below:
 
