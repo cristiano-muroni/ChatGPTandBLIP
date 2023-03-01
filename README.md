@@ -18,3 +18,8 @@ To install and run, follow the steps below:
 * create an account on https://openai.com/
 * After creating your account and logging in, **click** on "**Upgrade**" in the upper right corner
 * Create your API Key. **Click** on [API Keys](https://platform.openai.com/account/api-keys) 
+* Click in **+ Create new secret key** and then copy the key
+
+<p align="center">
+<img src="src/assets/copyKey.PNG">
+</p>
