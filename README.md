@@ -11,6 +11,8 @@
 <img src="src/assets/finalGIFGPT.gif">
 </p>
 
+This is a simple example of a conversational flow in which the GPT chat AI creates the phrases that will be shown to the user based on the context of the user's input. And when it is noticed that the user wants to see the photos of the product, the bot shows a carousel with the catalog of images.
+
 This is an example of how to use **GPT-3 chat** with the **Blip chat framework**.
 To install and run, follow the steps below:
 
