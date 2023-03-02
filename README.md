@@ -49,7 +49,7 @@ To install and run, follow the steps below:
 <img src="src/assets/enviroment.PNG">
 </p>
 
-#Install
+# Install
 
 Go to the [chatbot](https://github.com/cristiano-muroni/ChatGPTandBLIP/tree/main/chatbot) folder of this repository, download the flow in JSON.
 
