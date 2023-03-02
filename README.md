@@ -169,6 +169,79 @@ Authorization      | Bearer {your key}
 Content-Type       | application/json
                    |
 
+# Builder Blip Chat
+
+## SET prompt
+```
+function run(prompt, TypeClothes, gender, color, meshClothes, description, complement, price, size) {
+    const prompt = `Considere a descrição do seguinte produto.
+
+    Tipo: ${TypeClothes}
+    Gênero: ${gender}
+    Cor: ${color}
+    Malha: ${meshClothes}     
+    Tamanhos: ${size}
+    Descrição: ${description}
+    Composição: poliester ou a base de algodão.
+    Complemento: ${complement}
+    Preço: ${price}
+    Agora, baseado exclusivamente nas informações acima, responda a seguinte pergunta do cliente.
+    Pergunta:`
+    return prompt; 
+};
+```
+## SET payload
+```
+function run(prompt, askTheUser) {
+    const payload = {
+        "model": "text-davinci-003",
+        "prompt": `${prompt} ${askTheUser}`,
+        "temperature": 0.9,
+        "top_p": 0.9,
+        "frequency_penalty": 1,
+        "presence_penalty": 1,
+        "best_of": 2,
+        "max_tokens": 256,
+        "stop": null
+    };
+return JSON.stringify(payload);
+}
+```
+## HTTP equest to GPT-3 API
+
+Method               | Value
+-------------------- | --------------------
+POST                 | {{config.urlGpt3}}
+
+*Headers*
+Key                    | Value
+---------------------- | ----------------------
+Authorization          | Bearer {{config.apiKey}}
+Content-Type           | application/json
+
+*Body*
+```
+{{payload}}
+```
+*Save return*
+
+Response status variable   | Response body variable 
+-------------------------- | --------------------------
+statusGptApi               | responseGptApi
+
+
+*Filter Response*
+```
+function run(statusGptApi, responseGptApi) {
+    if (statusGptApi == 200) {
+        const item = JSON.parse(responseGptApi);
+        const resp = item.choices[0].text;
+        return resp;
+    }
+    return "Algo deu errado, tente novamente";
+};
+```
+
 
 
 
