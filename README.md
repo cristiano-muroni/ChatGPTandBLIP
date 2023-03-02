@@ -55,3 +55,7 @@ Go to the [chatbot](https://github.com/cristiano-muroni/ChatGPTandBLIP/tree/main
 
 After that, go back to the **builder** and go to **configurations** and then to **versions** and then click on **Upload flow** and select the JSON.
 
+<p align="center">
+<img src="src/assets/upload.PNG">
+</p>
+
