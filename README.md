@@ -166,8 +166,8 @@ POST https://api.openai.com/v1/images/generations
 Key                | Value
 ------------------ | ------------------
 Authorization      | Bearer {your key}
-Feijão             | R$ 8
 Content-Type       | application/json
+                   |
 
 
 
