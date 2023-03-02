@@ -24,6 +24,10 @@ To install and run, follow the steps below:
 <img src="src/assets/copyKey.PNG">
 </p>
 
+***Your key will look like this:***
+
+Api key 👉 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
+
 * Create a chat from scratch on the Take **Blip platform** and then open the **Blip builder** and click on **settings**.
 
 <p align="center">
