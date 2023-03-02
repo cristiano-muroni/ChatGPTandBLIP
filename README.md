@@ -172,6 +172,7 @@ Content-Type       | application/json
 # Builder Blip Chat
 
 ## SET prompt
+*This way of creating the prompt induces the GPT AI to create phrases according to the context you chose, but there are ways to create a prompt leaving the AI ​​free to give the answer according to the theme initiated by the user.*
 ```
 function run(prompt, TypeClothes, gender, color, meshClothes, description, complement, price, size) {
     const prompt = `Considere a descrição do seguinte produto.
