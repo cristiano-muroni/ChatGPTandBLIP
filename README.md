@@ -73,3 +73,51 @@ Then go to "Channels" and select "Blip Chat", then "Setup" and then click on "av
 <img src="src/assets/channelsetup.PNG">
 </p>
 
+# Open AI API information
+
+## Authentication
+
+<p align="center">
+<img src="src/assets/auth.PNG">
+</p>
+
+[Auth docs](https://platform.openai.com/docs/api-reference/authentication)
+
+## Requests for the completions service
+
+<p align="center">
+<img src="src/assets/complet.PNG">
+</p>
+
+[Completions docs](https://platform.openai.com/docs/api-reference/chat/create)
+
+## Requests for the create images service
+
+```
+POST https://api.openai.com/v1/images/generations
+```
+*Parameters*
+```
+{
+  "prompt": "A cute baby sea otter",
+  "n": 2,
+  "size": "1024x1024"
+}
+```
+*Response*
+```
+{
+  "created": 1589478378,
+  "data": [
+    {
+      "url": "https://..."
+    },
+    {
+      "url": "https://..."
+    }
+  ]
+}
+```
+[Create image docs](https://platform.openai.com/docs/api-reference/images/create)
+
+
