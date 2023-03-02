@@ -28,7 +28,7 @@ To install and run, follow the steps below:
 
 ***Your key will look like this:***
 
-Api key 👉 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
+Api key 👉 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 🔑
 
 * Create a chat from scratch on the Take **Blip platform** and then open the **Blip builder** and click on **settings**.
 
@@ -45,7 +45,7 @@ Api key 👉 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
 *In configuration variables, create **environment variables**.*
 *For it to work correctly in the flow that we will upload, the variables must have the same names as in the example below:*
 
-**apiKey** = *Put as value the **api key** you copied*
+**apiKey** = *Put as value the **api key** you copied* 🔑
 
 **urlGpt3** = *https://api.openai.com/v1/completions*
 
