@@ -35,3 +35,15 @@ To install and run, follow the steps below:
 <p align="center">
 <img src="src/assets/configextra.PNG">
 </p>
+
+*In configuration variables, create **environment variables**.*
+*For it to work correctly in the flow that we will upload, the variables must have the same names as in the example below:*
+
+**apiKey** = *Put as value the **api key** you copied*
+**urlGpt3** = *https://api.openai.com/v1/completions*
+**urlGpt3Images** = *https://api.openai.com/v1/images/generations*
+
+<p align="center">
+<img src="src/assets/enviroment.PNG">
+</p>
+
