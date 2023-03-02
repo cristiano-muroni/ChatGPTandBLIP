@@ -28,7 +28,7 @@ To install and run, follow the steps below:
 
 ***Your key will look like this:***
 
-Api key 👉 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 🔑
+**Api key** 👉 *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* 🔑
 
 * Create a chat from scratch on the Take **Blip platform** and then open the **Blip builder** and click on **settings**.
 
@@ -63,5 +63,13 @@ After that, go back to the **builder** and go to **configurations** and then to 
 
 <p align="center">
 <img src="src/assets/upload.PNG">
+</p>
+
+
+* Once uploaded, click on "Publish flow".
+Then go to "Channels" and select "Blip Chat", then "Setup" and then click on "avalaible here", this is the link of your published bot.
+
+<p align="center">
+<img src="src/assets/channelsetup.PNG">
 </p>
 
