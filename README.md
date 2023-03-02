@@ -85,6 +85,47 @@ Then go to "Channels" and select "Blip Chat", then "Setup" and then click on "av
 
 ## Requests for the completions service
 
+```
+POST https://api.openai.com/v1/completions
+```
+
+*Body*
+```
+{
+  "model": "text-davinci-003",
+  "prompt": "Say this is a test",
+  "max_tokens": 7,
+  "temperature": 0,
+  "top_p": 1,
+  "n": 1,
+  "stream": false,
+  "logprobs": null,
+  "stop": "\n"
+}
+```
+*Response*
+```
+{
+  "id": "cmpl-uqkvlQyYK7bGYrRHQ0eXlWi7",
+  "object": "text_completion",
+  "created": 1589478378,
+  "model": "text-davinci-003",
+  "choices": [
+    {
+      "text": "\n\nThis is indeed a test",
+      "index": 0,
+      "logprobs": null,
+      "finish_reason": "length"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 5,
+    "completion_tokens": 7,
+    "total_tokens": 12
+  }
+}
+```
+
 <p align="center">
 <img src="src/assets/complet.PNG">
 </p>
