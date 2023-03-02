@@ -161,4 +161,14 @@ POST https://api.openai.com/v1/images/generations
 ```
 [Create image docs](https://platform.openai.com/docs/api-reference/images/create)
 
+## Request headers
+
+Key                | Value
+------------------ | ------------------
+Authorization      | Bearer {your key}
+Feijão             | R$ 8
+Content-Type       | application/json
+
+
+
 
