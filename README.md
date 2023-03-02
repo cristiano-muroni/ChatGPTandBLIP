@@ -329,6 +329,12 @@ After select **"Dynamic content"**
 <img src="src/assets/dynamic.PNG">
 </p>
 
+# Flow full
+
+<p align="center">
+<img src="src/assets/chatblip_gpt3.mp4">
+</p>
+
 
 
 
