@@ -49,3 +49,9 @@ To install and run, follow the steps below:
 <img src="src/assets/enviroment.PNG">
 </p>
 
+#Install
+
+Go to the [chatbot](https://github.com/cristiano-muroni/ChatGPTandBLIP/tree/main/chatbot) folder of this repository, download the flow in JSON.
+
+After that, go back to the **builder** and go to **configurations** and then to **versions** and then click on **Upload flow** and select the JSON.
+
