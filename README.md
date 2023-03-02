@@ -317,7 +317,16 @@ function run(responseGptImagesApi, TypeClothes) {
    };
 
 }
+
+// save the return variable as "printImages"
 ```
+
+In the block select **"Content"**
+After select **"Dynamic content"**
+
+<p align="center">
+<img src="src/assets/dynamic.PNG">
+</p>
 
 
 
