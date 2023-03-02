@@ -207,7 +207,7 @@ function run(prompt, askTheUser) {
 return JSON.stringify(payload);
 }
 ```
-## HTTP equest to GPT-3 API
+## HTTP request to GPT-3 API
 
 Method               | Value
 -------------------- | --------------------
@@ -240,6 +240,83 @@ function run(statusGptApi, responseGptApi) {
     }
     return "Algo deu errado, tente novamente";
 };
+```
+## Request for the chat service to create images
+
+*SET prompt*
+```
+function run(askTheUser, gender, color) {
+    const promptImage = `${askTheUser} ${gender} ${color}`;
+    return promptImage;
+};
+// save the return variable as "promptImage"
+```
+
+Method               | Value
+-------------------- | --------------------
+POST                 | {{config.urlGpt3Images}}
+
+*Headers*
+Key                    | Value
+---------------------- | ----------------------
+Authorization          | Bearer {{config.apiKey}}
+Content-Type           | application/json
+
+*Body*
+```
+ {
+    "prompt": "{{promptImage}}",
+    "n": 10,
+    "size": "1024x1024"
+ }
+```
+*Save return*
+
+Response status variable   | Response body variable 
+-------------------------- | --------------------------
+statusGptImagesApi         | responseGptImagesApi
+
+
+*Filter Response*
+```
+function run(responseGptImagesApi, TypeClothes) {
+    responseGptImagesApi = JSON.parse(responseGptImagesApi);
+    const { data } = responseGptImagesApi;
+    let itens =[];
+   data.forEach((event) => {
+
+       itens.push({
+           "header": {
+               "type": "application/vnd.lime.media-link+json",
+               "value": {
+                   "title": TypeClothes,
+                   "text": "Description",
+                   "type": "image/jpg",
+                   "uri": event.url
+               }
+           },
+           "options": [
+                {
+                    "label": {
+                        "type": "application/vnd.lime.web-link+json",
+                        "value": {
+                            "title": "Comprar",
+                            "uri": "https://...",
+
+                        }
+                    }
+                }
+            ]
+          
+       });
+   });
+
+   return {
+       itemType: "application/vnd.lime.document-select+json",
+       items: itens
+   };
+
+}
 ```
 
 
