@@ -30,4 +30,8 @@ To install and run, follow the steps below:
 <img src="src/assets/config.PNG">
 </p>
 
-*Still in configuration click on **variables** and then on **configuration variables**. Click in **+ Add extra information***
+*Still in configuration click on **variables** and then on **configuration variables**. Click in **+ Add extra information***.
+
+<p align="center">
+<img src="src/assets/configextra.PNG">
+</p>
