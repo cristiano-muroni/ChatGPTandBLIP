@@ -29,3 +29,5 @@ To install and run, follow the steps below:
 <p align="center">
 <img src="src/assets/config.PNG">
 </p>
+
+***Still in configuration click on **variables** and then on **configuration variables**.***
